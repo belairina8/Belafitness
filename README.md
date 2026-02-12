@@ -654,9 +654,7 @@
         }
         
         .faq-answer {
-            max-height: none;
-            overflow: visible;
-            padding: 0 32px 26px;
+            padding: 18px 32px 26px;
             color: var(--text-light);
             line-height: 1.85;
             font-size: 15.5px;
@@ -665,12 +663,7 @@
         }
         
         .faq-item.active .faq-answer {
-            max-height: none;
-            padding: 0 32px 26px;
-        }
-        
-        .faq-answer {
-            padding-top: 18px;
+            padding: 18px 32px 26px;
         }
         
         /* Guarantee Section */
@@ -1137,9 +1130,22 @@
     <section class="hero">
         <div class="hero-content">
             <div class="hero-eyebrow">ANTRENOR PERSONAL CERTIFICAT</div>
-            <h1>Slăbește 8-15 kg în 90 de zile fără să renunți la viața ta</h1>
+            <h1>Slăbește 8-15 kg în 90 de zile</h1>
             <p class="hero-subtitle">Programul funcționează și pentru bărbați, și pentru femei. Fără diete imposibile, fără ore întregi la sală, fără să te simți că mori de foame. Doar un plan care se potrivește cu stilul tău de viață.</p>
             <a href="#programs" class="hero-cta">Vreau să văd cum funcționează</a>
+        </div>
+    </section>
+
+    <!-- FREE CONSULTATION SECTION -->
+    <section style="background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%); padding: 70px 20px; text-align: center; color: var(--white);">
+        <div class="container">
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div style="font-size: 13px; letter-spacing: 2.5px; text-transform: uppercase; margin-bottom: 20px; font-weight: 600; opacity: 0.95;">PROGRAM CONSULTAȚIE GRATUITĂ</div>
+                <h2 style="font-family: 'Cormorant Garamond', serif; font-size: clamp(32px, 4.5vw, 48px); margin-bottom: 25px; line-height: 1.2;">Vrei să afli dacă suntem potriviți?</h2>
+                <p style="font-size: 18px; margin-bottom: 40px; line-height: 1.7; opacity: 0.95;">Programează o consultație gratuită - evaluare completă și discuție despre obiectivele tale. Fără obligații, fără presiuni.</p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSei1K8z1G3TycPleLxD9bfM80oNBh3OUnNKJs7Z8O4NwXWFGg/viewform" target="_blank" style="display: inline-block; padding: 22px 55px; background: var(--white); color: var(--accent-dark); text-decoration: none; font-weight: 600; font-size: 17px; border-radius: 50px; transition: all 0.3s ease; box-shadow: 0 10px 35px rgba(0,0,0,0.2);">📋 Completează formularul gratuit</a>
+                <p style="font-size: 14px; margin-top: 25px; opacity: 0.9;">Îți răspund în maxim 24 de ore</p>
+            </div>
         </div>
     </section>
 
@@ -1195,9 +1201,9 @@
             </div>
             
             <div class="story-content">
-                <p>Acum 5 ani eram cu 25 de kilograme peste greutatea normală. Lucram în corporate, program de 10 ore pe zi, mâncam ce apucam, și îmi spuneam că "așa e viața de adult".</p>
+                <p>Acum 5 ani eram cu 25 de kilograme peste greutatea normală. Program de 10 ore pe zi, mâncam ce apucam, și îmi spuneam că "așa e viața de adult".</p>
                 
-                <p>Dimineața era groaznică. Mă uitam în oglindă și nu mă mai recunoșteam. Obosită non-stop. Hainele nu mai veneau cum trebuie. Încercam diete de pe internet - 1200 calorii, fără carbohidrați, numai proteine. Mă chinuiam câteva săptămâni, slăbeam 2-3 kg, apoi îi luam înapoi plus încă doi.</p>
+                <p>Dimineața era groaznică. Mă uitam în oglindă și nu mă mai recunoșteam. Obosită non-stop. Hainele nu mai veneau cum trebuie. Încercam diete de pe internet - 1200 calorii, fără carbohidrați, numai proteine. Mă chinuiam câteva săptămâni, slăbeam 2-3 kg, apoi puneam înapoi dublu.</p>
                 
                 <div class="story-quote">
                     "Punctul de cotitură a fost când am realizat că nu vreau să fiu la 30 de ani mai obosită decât bunica mea la 65."
@@ -1224,15 +1230,15 @@
                 </div>
                 <div class="about-content">
                     <div class="section-eyebrow">ANTRENOR PERSONAL CERTIFICAT</div>
-                    <h2>Bela Irina — Antrenoare personală la Jox Gym</h2>
-                    <p>Bela Irina este antrenoare personală certificată cu peste 5 ani de experiență în transformarea corpului și a stilului de viață al clienților săi. Lucrează la <strong>Jox Gym</strong>, unde combină antrenamentele personalizate cu planuri alimentare adaptate fiecărui client în parte.</p>
+                    <h2>Bela Irina — Antrenoare personală</h2>
+                    <p>Bela Irina este antrenoare personală certificată cu peste 5 ani de experiență în transformarea corpului și a stilului de viață al clienților săi. Combină antrenamentele personalizate cu planuri alimentare adaptate fiecărui client în parte.</p>
                     <p>Irina nu crede în soluții generice. Fiecare client primește un program creat special pentru corpul, obiectivele și stilul său de viață — fie că vrea să slăbească, să câștige masă musculară sau pur și simplu să se simtă mai bine în propriul corp.</p>
-                    <p>A lucrat cu sute de clienți, bărbați și femei, de la 18 la 65 de ani, obținând rezultate vizibile și măsurabile. Abordarea ei combină mișcarea inteligentă cu nutriția adaptată individual, fără diete extreme și fără ore lungi petrecute la sală.</p>
+                    <p>A lucrat cu sute de clienți, bărbați și femei, de la 18 la 65 de ani, obținând rezultate vizibile și măsurabile. Abordarea ei combină mișcarea inteligentă cu nutriția adaptată individual, fără diete extreme și fără ore lungi de antrenament.</p>
                     <p><strong>„Este nevoie doar de ambiție și muncă — de restul se ocupă Irina."</strong></p>
                     <div class="about-credentials">
                         <span class="credential-tag">✓ Antrenor Personal Certificat</span>
                         <span class="credential-tag">✓ Nutriție & Plan Alimentar</span>
-                        <span class="credential-tag">✓ Jox Gym, Antrenoare activă</span>
+                        <span class="credential-tag">✓ Antrenoare activă</span>
                         <span class="credential-tag">✓ 300+ Clienți transformați</span>
                         <span class="credential-tag">✓ Antrenament Personalizat</span>
                         <span class="credential-tag">✓ Suport WhatsApp zilnic</span>
@@ -1390,7 +1396,7 @@
                             <li>Pas 3: Adăugăm forță și rezistență când corpul e pregătit</li>
                             <li>Pas 4: Te ajut să te miști BINE, nu doar să arzi calorii</li>
                         </ul>
-                        <p>Rezultat: Nu doar slăbești. Te simți mai bine în corpul tău. Durerea dispare. Ai energie. Antrenamentele sunt 30-45 minute, nu 2 ore.</p>
+                        <p>Rezultat: Nu doar slăbești. Te simți mai bine în corpul tău. Durerea dispare. Ai energie. Antrenamentele sunt de 60 de minute, atât trebuie să dureze un antrenament — după 60 de minute performanța scade.</p>
                     </div>
 
                     <div class="mechanism-pillar">
@@ -1442,7 +1448,7 @@
             <div class="spots-bar-wrap">
                 <div class="spots-bar"></div>
             </div>
-            <p class="spots-text"><span class="spots-highlight">7 din 10 locuri</span> au fost deja ocupate în luna Februarie 2026</p>
+            <p class="spots-text"><span class="spots-highlight">7 din 10 locuri</span> au fost deja ocupate</p>
             <p class="spots-text" style="margin-top: 8px;">Au mai rămas <span class="spots-highlight">doar 3 locuri disponibile</span> — rezervă-ți locul acum</p>
             <p class="spots-sub">* Listele de așteptare se deschid odată pe lună. Nu rata această oportunitate.</p>
         </div>
@@ -1453,83 +1459,129 @@
         <div class="container">
             <div class="section-header">
                 <div class="section-eyebrow">ALEGE PROGRAMUL TĂU</div>
-                <h2 class="section-title">Trei moduri de a lucra împreună</h2>
-                <p class="section-subtitle">Toate programele includ consultație gratuită și evaluare completă înainte să începem. Aleg să lucrez doar cu oameni care sunt pregătiți pentru schimbare reală.</p>
+                <h2 class="section-title">Programe ONLINE & Antrenamente 1:1</h2>
+                <p class="section-subtitle">Mai sunt doar 3 locuri libere. Toate programele includ consultație gratuită și evaluare completă înainte să începem.</p>
             </div>
             
             <div class="programs-grid">
-                <!-- PROGRAM 1 -->
+                <!-- PACHETE DE BAZĂ - 150 LEI -->
                 <div class="program-card">
                     <div class="program-header">
-                        <h3 class="program-name">Start — 1 Lună</h3>
-                        <span class="price-old">700 RON</span>
-                        <div class="price-new">450 RON</div>
-                        <span class="price-badge">-36% reducere</span>
-                        <div class="program-period" style="margin-top: 10px;">pe lună · Ofertă limitată</div>
+                        <h3 class="program-name">📋 Pachete de bază – 150 lei/lună</h3>
+                        <div class="program-period">Program individual – cu suport WhatsApp săptămânal</div>
                     </div>
                     <div class="program-body">
-                        <p class="program-description">Pentru cei care vor să testeze colaborarea și să vadă dacă metoda funcționează pentru ei.</p>
                         <ul class="program-features">
-                            <li>Program personalizat de antrenament</li>
-                            <li>Plan alimentar adaptat nevoilor tale</li>
-                            <li>Acces la aplicație pentru tracking</li>
-                            <li>O verificare săptămânală a progresului</li>
-                            <li>Răspuns în maxim 24h la întrebări</li>
+                            <li><strong>🍽️ Pachet Alimentație</strong><br>
+                                <strong>150 lei / lună</strong><br>
+                                ✔️ Plan alimentar personalizat pe 30 de zile<br>
+                                ✔️ Adaptat obiectivelor tale<br>
+                                ✔️ Rețete simple și practice<br>
+                                ✔️ Suport WhatsApp o dată pe săptămână + feedback<br>
+                                📌 Ideal pentru cei care vor doar ghidare nutrițională
+                            </li>
+                            <li><strong>💪 Pachet Antrenament</strong><br>
+                                <strong>150 lei / lună</strong><br>
+                                ✔️ Program de antrenament personalizat<br>
+                                ✔️ Adaptat nivelului tău de fitness<br>
+                                ✔️ Exerciții clare cu demonstrații<br>
+                                ✔️ Suport WhatsApp o dată pe săptămână + feedback<br>
+                                📌 Perfect pentru cei care își gestionează singuri progresul
+                            </li>
                         </ul>
                         <a href="https://docs.google.com/forms/d/e/1FAIpQLSei1K8z1G3TycPleLxD9bfM80oNBh3OUnNKJs7Z8O4NwXWFGg/viewform" target="_blank" class="program-cta">Completează formularul</a>
                     </div>
                 </div>
 
-                <!-- PROGRAM 2 (Featured) -->
+                <!-- PACHETE DE BAZĂ - 300 LEI -->
+                <div class="program-card">
+                    <div class="program-header">
+                        <h3 class="program-name">🥗💪 Pachet Complet – 300 lei/lună</h3>
+                        <div class="program-period">Plan alimentar + plan antrenament + suport WhatsApp săptămânal</div>
+                    </div>
+                    <div class="program-body">
+                        <ul class="program-features">
+                            <li><strong>🍽️💪 Alimentație + Antrenament</strong><br>
+                                <strong>300 lei / lună</strong><br>
+                                ✔️ Plan alimentar personalizat pe 30 de zile<br>
+                                ✔️ Plan de antrenament personalizat<br>
+                                ✔️ Adaptat obiectivelor și stilului tău de viață<br>
+                                ✔️ Rețete simple și practice<br>
+                                ✔️ Exerciții clare cu demonstrații<br>
+                                ✔️ Suport WhatsApp o dată pe săptămână + feedback<br>
+                                📌 Ideal pentru cei care vor ghidare completă: mișcare + nutriție
+                            </li>
+                        </ul>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSei1K8z1G3TycPleLxD9bfM80oNBh3OUnNKJs7Z8O4NwXWFGg/viewform" target="_blank" class="program-cta">Completează formularul</a>
+                    </div>
+                </div>
+
+                <!-- TRANSFORMARE 90 ZILE - CEL MAI CERUT -->
                 <div class="program-card featured">
-                    <span class="featured-badge">CEL MAI POPULAR</span>
+                    <span class="featured-badge">🔥 CEL MAI CERUT</span>
                     <div class="program-header">
-                        <h3 class="program-name">Transformare Completă</h3>
-                        <div class="program-price">1.500 RON</div>
-                        <div class="program-period">3 luni (economisești 300 RON)</div>
+                        <h3 class="program-name">💫 Transformare 90 de zile</h3>
+                        <div class="program-period">Program complet cu suport WhatsApp</div>
                     </div>
                     <div class="program-body">
-                        <p class="program-description">Programul complet pentru rezultate serioase și sustenabile. Aici se întâmplă transformarea reală.</p>
+                        <p class="program-description" style="font-size: 18px; margin-bottom: 20px;"><strong>1200 lei / lună (90 de zile)</strong></p>
                         <ul class="program-features">
-                            <li>Tot ce e inclus în pachetul Start</li>
-                            <li>Două verificări săptămânale ale progresului</li>
-                            <li>Ajustări săptămânale ale programului</li>
-                            <li>Suport WhatsApp zilnic</li>
-                            <li>Sesiuni video lunare de evaluare</li>
-                            <li>Ghid complet de nutriție personalizată</li>
-                            <li>Acces la biblioteca de rețete</li>
-                            <li>Economisești 20% față de plata lunară</li>
+                            <li>✔️ <strong>3 antrenamente pe săptămână</strong> - personalizate 100%</li>
+                            <li>✔️ <strong>Plan alimentar complet</strong> - adaptat metabolismului tău</li>
+                            <li>✔️ <strong>Suport WhatsApp nelimitat</strong> - răspund în max 24h</li>
+                            <li>✔️ <strong>Feedback săptămânal</strong> - ajustări continue</li>
+                            <li>✔️ <strong>Monitorizare progres</strong> - foto, măsurători, energie</li>
+                            <li>✔️ <strong>Totul personalizat</strong> - nimic generic</li>
                         </ul>
+                        <p style="margin-top: 20px; padding: 15px; background: #fff8ee; border-left: 4px solid var(--accent); font-size: 15px; line-height: 1.7;">
+                            <strong>🎯 De ce e cel mai cerut?</strong><br>
+                            Îmbină totul într-un pachet complet: antrenament + alimentație + suport constant. Nu ești lăsat singur - sunt cu tine la fiecare pas. Rezultate garantate dacă urmezi programul.
+                        </p>
                         <a href="https://docs.google.com/forms/d/e/1FAIpQLSei1K8z1G3TycPleLxD9bfM80oNBh3OUnNKJs7Z8O4NwXWFGg/viewform" target="_blank" class="program-cta">Completează formularul</a>
                     </div>
                 </div>
 
-                <!-- PROGRAM 3 -->
+                <!-- ANTRENAMENTE 1:1 -->
                 <div class="program-card">
                     <div class="program-header">
-                        <h3 class="program-name">VIP Premium</h3>
-                        <div class="program-price">2.700 RON</div>
-                        <div class="program-period">6 luni (economisești 900 RON)</div>
+                        <h3 class="program-name">🏋️‍♀️ Antrenamente 1:1</h3>
+                        <div class="program-period">Locuri extrem de limitate</div>
                     </div>
                     <div class="program-body">
-                        <p class="program-description">Pentru cei care vor cele mai bune rezultate cu atenție maximă și suport complet pe termen lung.</p>
                         <ul class="program-features">
-                            <li>Tot ce e inclus în Transformare Completă</li>
-                            <li>Acces prioritar și suport 24/7</li>
-                            <li>Trei verificări săptămânale</li>
-                            <li>Sesiuni video bi-săptămânale</li>
-                            <li>Program de menținere post-transformare</li>
-                            <li>Acces la comunitatea privată de clienți</li>
-                            <li>Plan de nutriție pentru întreaga familie</li>
-                            <li>Economisești 25% față de plata lunară</li>
-                            <li>Garanție de rezultate</li>
+                            <li><strong>🔥 Pachet 3 luni – 1:1</strong><br>
+                                <strong>1500 lei / 3 luni</strong><br>
+                                ✔️ Antrenamente individuale personalizate<br>
+                                ✔️ Plan alimentar inclus<br>
+                                ✔️ Corectarea execuției la fiecare ședință<br>
+                                ✔️ Monitorizare progres săptămânală<br>
+                                ✔️ Ajustări constante<br>
+                                📌 <strong>Program destinat femeilor ȘI bărbaților</strong> care vor schimbare reală
+                            </li>
+                            <li><strong>💪 Antrenament 1:1 – lunar</strong><br>
+                                <strong>700 lei / lună</strong><br>
+                                ✔️ <strong>3 antrenamente pe săptămână</strong><br>
+                                ✔️ Antrenamente individuale<br>
+                                ✔️ <strong>Plan alimentație GRATUIT</strong><br>
+                                ✔️ Atenție 100% pe tine<br>
+                                ✔️ Corectare postură și execuție<br>
+                                ✔️ Motivație, disciplină și structură<br>
+                                📌 Recomandat după evaluare inițială
+                            </li>
                         </ul>
-                        <div class="installment-note">
-                            💳 <strong>Se poate plăti în 3 rate!</strong> Programul de 6 luni poate fi achitat în 3 rate egale, fără dobândă. Detalii la înregistrare.
-                        </div>
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSei1K8z1G3TycPleLxD9bfM80oNBh3OUnNKJs7Z8O4NwXWFGg/viewform" target="_blank" class="program-cta" style="margin-top: 18px;">Completează formularul</a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSei1K8z1G3TycPleLxD9bfM80oNBh3OUnNKJs7Z8O4NwXWFGg/viewform" target="_blank" class="program-cta">Completează formularul</a>
                     </div>
                 </div>
+            </div>
+
+            <!-- REZULTATE -->
+            <div style="margin-top: 60px; text-align: center; padding: 40px 20px; background: var(--light); border-radius: 12px;">
+                <h3 style="font-size: 28px; margin-bottom: 25px; color: var(--primary);">Rezultate</h3>
+                <ul style="list-style: none; padding: 0; max-width: 600px; margin: 0 auto; text-align: left;">
+                    <li style="padding: 10px 0; font-size: 17px;">✔️ Transformări vizibile în 90 de zile</li>
+                    <li style="padding: 10px 0; font-size: 17px;">✔️ Slăbire sănătoasă și menținere</li>
+                    <li style="padding: 10px 0; font-size: 17px;">✔️ Abdomen definit fără diete drastice</li>
+                </ul>
             </div>
         </div>
     </section>
@@ -1543,17 +1595,11 @@
             </div>
             
             <div class="faq-container">
-                <div class="faq-item">
-                    <div class="faq-question">Totul e online sau trebuie să vin față în față?</div>
-                    <div class="faq-answer">
-                        Totul e online. Îmi trimiți videourile cu antrenamentele, vorbim pe video call pentru evaluări, comunic cu tine prin WhatsApp. Avantaj? Te antrenezi când vrei tu, unde vrei tu - acasă, la sală, în parc. Fără să pierzi timp cu deplasări.
-                    </div>
-                </div>
                 
                 <div class="faq-item">
                     <div class="faq-question">Cât timp durează antrenamentele?</div>
                     <div class="faq-answer">
-                        30-45 minute, de 3-4 ori pe săptămână. Nu ai nevoie de 2 ore la sală ca să slăbești. Programele sunt făcute pentru oameni ocupați - eficiente, nu lungi. Poți să le faci acasă, fără echipament special.
+                        Antrenamentele sunt de 60 de minute, de 3-4 ori pe săptămână. Atât trebuie să dureze un antrenament — după 60 de minute performanța scade. Programele sunt făcute pentru oameni ocupați - eficiente, nu lungi. Poți să le faci acasă, fără echipament special.
                     </div>
                 </div>
                 
@@ -1677,4 +1723,3 @@
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
                 const target = document.querySelector(this.getAttribute('href'));
-             
